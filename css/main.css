@@ -299,7 +299,7 @@ textarea{
 }
 .active{
  background-color: #1e3f22;
- color: white;
+ color: white !important;
  padding: 5px;
  border-radius: 15px;
 }
@@ -327,13 +327,10 @@ textarea{
     background-color: grey;
     border-radius: 15px;
 }
-
-.bar:hover{
-    color: white;
-    background-color: #1e3f22;
-    padding: 5px;
-    border-radius: 15px;
+.nav-bar.open{
+    display: block;
 }
+
 body{
     opacity: 0;
     transition: opacity 0.3s linear;
